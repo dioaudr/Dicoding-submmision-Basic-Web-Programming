@@ -1,0 +1,112 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+h2, h3 {
+    color: #3a6351;
+}
+
+p {
+    text-indent: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#letter-spacing {
+    letter-spacing: 4px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #3a6351;
+    background-image: repeating-linear-gradient(black black);
+    text-align: center;
+    color: whitesmoke;
+}
+
+nav {
+background-color: #f2edd7;
+padding: 5px;
+position: sticky;
+top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffe6ca;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: tan;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+main {
+    padding: 20px;
+    overflow: auto;
+} 
+.content {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+
+.profile {
+    text-align: center;
+}
+
+
+footer{
+    padding: 15px;
+    color: #3a6351;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .content,
+    aside{
+        width: 100%;
+        pedding: 0;
+    }
+}
